@@ -46,10 +46,10 @@ a {
   all: unset;
   cursor: pointer;
 }
-#root,
-#__next {
-  isolation: isolate;
+button {
+  user-select: none;
 }
+
 /* 띄어쓰기 안한 글자가 삐져나가는 현상 방지 */
 :root {
   overflow-wrap: break-word;
