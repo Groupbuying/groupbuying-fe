@@ -1,14 +1,12 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import { Home } from './Home'
-import { About } from './About'
+import { ShoppingCart } from './pages/ShoppingCart'
 
 const App: React.FC = () => {
   return (
     <Router>
       <Routes>
-        <Route path='/home' element={<Home />} />
-        <Route path='/about' element={<About />} />
+        <Route path='/' element={<ShoppingCart />} />
       </Routes>
     </Router>
   )
